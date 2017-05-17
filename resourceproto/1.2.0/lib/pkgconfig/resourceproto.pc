@@ -1,0 +1,9 @@
+prefix=/home/james/.linuxbrew/Cellar/resourceproto/1.2.0
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ 
+Name: ResourceProto
+Description: Resource extension headers
+Version: 1.2.0
+Cflags: -I${includedir}

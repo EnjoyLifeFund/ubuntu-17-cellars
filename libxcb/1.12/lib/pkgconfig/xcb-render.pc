@@ -1,0 +1,11 @@
+prefix=/home/james/.linuxbrew/Cellar/libxcb/1.12
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB Render
+Description: XCB Render Extension
+Version: 1.12
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-render
+Cflags: -I${includedir}

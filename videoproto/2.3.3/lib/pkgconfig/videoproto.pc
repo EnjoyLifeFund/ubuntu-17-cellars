@@ -1,0 +1,9 @@
+prefix=/home/james/.linuxbrew/Cellar/videoproto/2.3.3
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: VideoProto
+Description: Video extension headers
+Version: 2.3.3
+Cflags: -I${includedir}

@@ -1,0 +1,9 @@
+prefix=/home/james/.linuxbrew/Cellar/dri2proto/2.8
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ 
+Name: DRI2Proto
+Description: DRI2 extension headers
+Version: 2.8
+Cflags: -I${includedir}
